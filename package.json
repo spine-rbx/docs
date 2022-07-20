@@ -1,0 +1,17 @@
+{
+  "name": "Spine",
+  "version": "1.0.0",
+  "description": "temp",
+  "main": "index.js",
+  "author": "Uncontained0 <uncontained0@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.2",
+    "vue": "^3.2.37"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
