@@ -1,0 +1,10 @@
+:root {
+	--vp-c-brand: rgb(5, 142, 217);
+	--vp-c-brand-light: rgb(0, 166, 255);
+	--vp-c-brand-lighter: rgb(83, 195, 255);
+	--vp-c-brand-dark: rgb(0, 106, 163);
+	--vp-c-brand-darker: rgb(0, 64, 99);
+
+	--vp-custom-block-details-text: rgb(255, 255, 255);
+	--vp-custom-block-details-code-bg: #494949;
+}
