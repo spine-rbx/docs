@@ -1,5 +1,5 @@
 # ServerServiceClient
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 This is one of those classes that isn't explained very well
 by simple API documentation. I suggest you read the topic about
 services.
@@ -12,7 +12,7 @@ services.
 ### Methods
 - <code><a style="color:white" href="#method-__newindex">__newindex</a>(i: string, v: any): </code>
 - <code><a style="color:white" href="#method-_Make">_Make</a>(): </code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

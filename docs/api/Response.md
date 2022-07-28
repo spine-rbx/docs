@@ -1,5 +1,5 @@
 # Response
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 This class represents a HTTP Response. This is designed to
 somewhat mimic the Javascript "Fetch" API.
 
@@ -14,7 +14,7 @@ somewhat mimic the Javascript "Fetch" API.
 ### Methods
 - <code><a style="color:white" href="#method-Json">Json</a>(): any</code>
 - <code><a style="color:white" href="#method-Text">Text</a>(): string</code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

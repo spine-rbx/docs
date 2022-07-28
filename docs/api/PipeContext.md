@@ -1,5 +1,5 @@
 # PipeContext
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 This is the context passed to callbacks in a pipe. Using
 this, callbacks can access and mutate passed arguments or
 instantly return a value.
@@ -10,7 +10,7 @@ instantly return a value.
 - <code><a style="color:white" href="#prop-Pipe">Pipe</a>: [Pipe](/api/pipe)</code>
 - <code><a style="color:white" href="#prop-RawArgs">RawArgs</a>: { any }</code>
 ### Methods
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

@@ -1,5 +1,5 @@
 # Binding
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 This class enables you to bind code to instances using CollectionService.
 It is common to use the [Tag Editor Plugin](https://www.roblox.com/library/948084095/Tag-Editor)
 to add tags to instances, and use binding to run code on those instances.
@@ -11,7 +11,7 @@ CollectionService tag.
 ## Summary
 ### Methods
 - <code><a style="color:white" href="#method-Bind">Bind</a>(Tag: string): </code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

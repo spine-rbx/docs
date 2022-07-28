@@ -1,5 +1,5 @@
 # Request
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 This class represents a HTTP Request. All methods on
 this class return itself, so you can chain methods. This
 is designed to somewhat mimic the Javascript "Fetch" API.
@@ -27,7 +27,7 @@ local RequestObject = Request:New()
 - <code><a style="color:white" href="#method-SetHeaders">SetHeaders</a>(Headers: { [string]: string }): Request</code>
 - <code><a style="color:white" href="#method-SetMethod">SetMethod</a>(Method: string): Request</code>
 - <code><a style="color:white" href="#method-SetUrl">SetUrl</a>(Url: string): Request</code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

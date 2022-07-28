@@ -1,5 +1,5 @@
 # ServerService
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 This is a service. This is not explained well
 by simple API documentation. I suggest you read the topic about
 services.
@@ -11,7 +11,7 @@ services.
 - <code><a style="color:white" href="#prop-SIGNAL">SIGNAL</a>: any</code>
 - <code><a style="color:white" href="#prop-VALUE">VALUE</a>: any</code>
 ### Methods
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

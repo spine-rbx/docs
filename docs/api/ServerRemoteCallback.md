@@ -1,5 +1,5 @@
 # ServerRemoteCallback
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 A wrapper around RemoteFunctions.
 
 ## Summary
@@ -9,7 +9,7 @@ A wrapper around RemoteFunctions.
 - <code><a style="color:white" href="#prop-Callback">Callback</a>: (...any) -> (...any)?</code>
 ### Methods
 - <code><a style="color:white" href="#method-Destroy">Destroy</a>(): </code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

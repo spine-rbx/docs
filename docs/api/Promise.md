@@ -1,5 +1,5 @@
 # Promise
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 An implementation of promise. This somewhat follows A+ spec, but
 is not in any way an exact implementation.
 
@@ -16,7 +16,7 @@ is not in any way an exact implementation.
 - <code><a style="color:white" href="#method-Finally">Finally</a>(Callback: (...any) -> ()): Promise</code>
 - <code><a style="color:white" href="#method-Then">Then</a>(ResolveCallback: (...any) -> (...any)?, RejectCallback: (...any) -> (...any)?): Promise</code>
 - <code><a style="color:white" href="#method-Wait">Wait</a>(): any</code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

@@ -1,5 +1,5 @@
 # Pipe
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 Similar to [signal](/api/signal) but with a few differences.
 Firstly, callbacks are not run in a separate thread, they are
 run synchronously. Secondly, after activating a pipe, it will
@@ -15,7 +15,7 @@ to a pipe can be mutated by callbacks.
 - <code><a style="color:white" href="#method-Destroy">Destroy</a>(): </code>
 - <code><a style="color:white" href="#method-Listen">Listen</a>(Priority: number, Callback: (Context: [PipeContext](/api/pipecontext), ...any) -> ()): </code>
 - <code><a style="color:white" href="#method-Run">Run</a>(Args: ...any): [Promise](/api/promise)</code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

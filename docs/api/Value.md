@@ -1,5 +1,5 @@
 # Value
-#### Extends [Signal](/api/Signal)
+#### Extends [Signal](./Signal)
 This represents a value, you can listen for changes, observe the value,
 or just read and write.
 
@@ -7,7 +7,7 @@ or just read and write.
 ### Properties
 - <code><a style="color:white" href="#prop-_Children">_Children</a>: { Value }</code>
 - <code><a style="color:white" href="#prop-Value">Value</a>: any</code>
-::: details Inherited from [Signal](/api/Signal)
+::: details Inherited from [Signal](./Signal)
 - <code><a style="color:white" href="#prop-_Bin">_Bin</a>: [Bin](/api/bin)</code>
 - <code><a style="color:white" href="#prop-_CallbackList">_CallbackList</a>: { (...any) -> () }</code>
 :::
@@ -16,14 +16,14 @@ or just read and write.
 - <code><a style="color:white" href="#method-Map">Map</a>(Callback: (Value: any) -> (any)): [Value](/api/value)</code>
 - <code><a style="color:white" href="#method-Observe">Observe</a>(Callback: (Value: any) -> ()): { Disconnect: () -> () }</code>
 - <code><a style="color:white" href="#method-Set">Set</a>(Value: any): </code>
-::: details Inherited from [Signal](/api/Signal)
+::: details Inherited from [Signal](./Signal)
 - <code><a style="color:white" href="#method-Connect">Connect</a>(Callback: (...any) -> ()): { Disconnect: () -> () }</code>
 - <code><a style="color:white" href="#method-Destroy">Destroy</a>(): </code>
 - <code><a style="color:white" href="#method-Fire">Fire</a>(...: any): </code>
 - <code><a style="color:white" href="#method-Once">Once</a>(Predicate: (...any) -> (boolean?)?): [Promise](/api/promise)</code>
 - <code><a style="color:white" href="#method-Wait">Wait</a>(): [Promise](/api/promise)</code>
 :::
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

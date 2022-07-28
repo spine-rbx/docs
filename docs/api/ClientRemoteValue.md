@@ -1,40 +1,40 @@
 # ClientRemoteValue
-#### Extends [Value](/api/Value)
+#### Extends [Value](./Value)
 A wrapper around RemoteEvents using the Value class. Allows
 the server to keep a value in sync with the client.
 
 ## Summary
 ### Properties
 - <code><a style="color:white" href="#prop-Ready">Ready</a>: [Promise](/api/promise)</code>
-::: details Inherited from [Value](/api/Value)
+::: details Inherited from [Value](./Value)
 - <code><a style="color:white" href="#prop-_Children">_Children</a>: { Value }</code>
 - <code><a style="color:white" href="#prop-Value">Value</a>: any</code>
 :::
-::: details Inherited from [Signal](/api/Signal)
+::: details Inherited from [Signal](./Signal)
 - <code><a style="color:white" href="#prop-_Bin">_Bin</a>: [Bin](/api/bin)</code>
 - <code><a style="color:white" href="#prop-_CallbackList">_CallbackList</a>: { (...any) -> () }</code>
 :::
 ### Methods
-::: details Inherited from [Value](/api/Value)
+::: details Inherited from [Value](./Value)
 - <code><a style="color:white" href="#method-Get">Get</a>(): any</code>
 - <code><a style="color:white" href="#method-Map">Map</a>(Callback: (Value: any) -> (any)): [Value](/api/value)</code>
 - <code><a style="color:white" href="#method-Observe">Observe</a>(Callback: (Value: any) -> ()): { Disconnect: () -> () }</code>
 - <code><a style="color:white" href="#method-Set">Set</a>(Value: any): </code>
 :::
-::: details Inherited from [Signal](/api/Signal)
+::: details Inherited from [Signal](./Signal)
 - <code><a style="color:white" href="#method-Connect">Connect</a>(Callback: (...any) -> ()): { Disconnect: () -> () }</code>
 - <code><a style="color:white" href="#method-Destroy">Destroy</a>(): </code>
 - <code><a style="color:white" href="#method-Fire">Fire</a>(...: any): </code>
 - <code><a style="color:white" href="#method-Once">Once</a>(Predicate: (...any) -> (boolean?)?): [Promise](/api/promise)</code>
 - <code><a style="color:white" href="#method-Wait">Wait</a>(): [Promise](/api/promise)</code>
 :::
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>
 :::
 ### Static Methods
-::: details Inherited from [Value](/api/Value)
+::: details Inherited from [Value](./Value)
 - <code><a style="color:white" href="#static-Unwrap">Unwrap</a>(Value: [Value](/api/value) | any): any</code>
 :::
 ## Constructor

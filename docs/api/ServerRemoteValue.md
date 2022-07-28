@@ -1,5 +1,5 @@
 # ServerRemoteValue
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 A wrapper around RemoteEvents that lets the server sync
 values between itself and clients.
 
@@ -18,7 +18,7 @@ values between itself and clients.
 - <code><a style="color:white" href="#method-GetFor">GetFor</a>(Player: Player): any</code>
 - <code><a style="color:white" href="#method-Set">Set</a>(Value: any): </code>
 - <code><a style="color:white" href="#method-SetFor">SetFor</a>(Player: Player, Value: any): </code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

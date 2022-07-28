@@ -1,5 +1,5 @@
 # ClientService
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 This is one of those classes that isn't explained very well
 by simple API documentation. I suggest you read the topic about
 services.
@@ -10,7 +10,7 @@ services.
 - <code><a style="color:white" href="#prop-ServiceList">ServiceList</a>: { [string]: [ClientService](/api/clientservice) }</code>
 - <code><a style="color:white" href="#prop-Yielding">Yielding</a>: { [string]: thread }</code>
 ### Methods
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

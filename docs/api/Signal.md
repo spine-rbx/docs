@@ -1,5 +1,5 @@
 # Signal
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 An implementation of signal. This is not the fastest implementation,
 but it suits all of Spine's needs.
 
@@ -13,7 +13,7 @@ but it suits all of Spine's needs.
 - <code><a style="color:white" href="#method-Fire">Fire</a>(...: any): </code>
 - <code><a style="color:white" href="#method-Once">Once</a>(Predicate: (...any) -> (boolean?)?): [Promise](/api/promise)</code>
 - <code><a style="color:white" href="#method-Wait">Wait</a>(): [Promise](/api/promise)</code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>

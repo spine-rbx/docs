@@ -1,5 +1,5 @@
 # Bin
-#### Extends [Object](/api/Object)
+#### Extends [Object](./Object)
 Bin is similar to a commonly used "Maid" class. You give it items, and it
 cleans them up at a later time.
 
@@ -12,7 +12,7 @@ cleans them up at a later time.
 - <code><a style="color:white" href="#method-AddItem">AddItem</a>(Item: any): </code>
 - <code><a style="color:white" href="#method-Destroy">Destroy</a>(): </code>
 - <code><a style="color:white" href="#method-Empty">Empty</a>(): </code>
-::: details Inherited from [Object](/api/Object)
+::: details Inherited from [Object](./Object)
 - <code><a style="color:white" href="#method-Extend">Extend</a>(): </code>
 - <code><a style="color:white" href="#method-Is">Is</a>(Other: [Object](/api/object), Recursive: boolean): boolean</code>
 - <code><a style="color:white" href="#method-New">New</a>(Args: ...): [Object](/api/object)</code>
